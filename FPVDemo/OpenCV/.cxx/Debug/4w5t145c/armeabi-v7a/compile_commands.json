@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/Admin/Desktop/Tesis/camera dji/Android-FPVDemo/FPVDemo/OpenCV/.cxx/Debug/4w5t145c/armeabi-v7a",
+  "command": "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\opencv_jni_shared.dir\\dummy.cpp.o -c \"C:\\Users\\Admin\\Desktop\\Tesis\\camera dji\\Android-FPVDemo\\FPVDemo\\OpenCV\\libcxx_helper\\dummy.cpp\"",
+  "file": "C:\\Users\\Admin\\Desktop\\Tesis\\camera dji\\Android-FPVDemo\\FPVDemo\\OpenCV\\libcxx_helper\\dummy.cpp"
+}
+]

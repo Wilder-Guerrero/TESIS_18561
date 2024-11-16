@@ -1,0 +1,3 @@
+C:/Users/Admin/Desktop/Tesis/camera dji/Android-FPVDemo/FPVDemo/OpenCV/.cxx/Debug/4w5t145c/arm64-v8a/CMakeFiles/opencv_jni_shared.dir
+C:/Users/Admin/Desktop/Tesis/camera dji/Android-FPVDemo/FPVDemo/OpenCV/.cxx/Debug/4w5t145c/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Admin/Desktop/Tesis/camera dji/Android-FPVDemo/FPVDemo/OpenCV/.cxx/Debug/4w5t145c/arm64-v8a/CMakeFiles/rebuild_cache.dir
