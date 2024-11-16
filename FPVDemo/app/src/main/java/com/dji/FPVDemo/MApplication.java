@@ -24,3 +24,4 @@ public class MApplication extends Application {
         fpvDemoApplication.onCreate();
     }
 }
+

@@ -1,1 +1,5 @@
 include ':app'
+
+
+include ':OpenCV'
+//project(':OpenCV').projectDir = new File('C:\\Users\\Admin\\Desktop\\Tesis\\camera dji\\Android-FPVDemo\\FPVDemo\\OpenCV')

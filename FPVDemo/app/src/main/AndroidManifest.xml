@@ -45,15 +45,16 @@
         <uses-library android:name="com.android.future.usb.accessory" />
         <meta-data
             android:name="com.dji.sdk.API_KEY"
-            android:value="Please enter your App Key here." />
+            android:value="6e1e4ae396d4e70e810eac7d" />
 
         <service android:name="dji.sdk.sdkmanager.DJIGlobalService" >
         </service>
         <!-- DJI SDK -->
 
         <activity android:name=".ConnectionActivity"
-            android:configChanges="orientation"
-            android:screenOrientation="portrait">
+            android:exported="true">
+<!--            android:configChanges="orientation"-->
+<!--            android:screenOrientation="portrait">-->
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

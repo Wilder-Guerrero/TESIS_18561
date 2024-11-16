@@ -8,4 +8,19 @@
     <string name="connection_loose">Status: No Product Connected</string>
     <string name="sdk_version">DJI SDK Version: %1$s</string>
 
+
+    <string-array name="filter_options">
+        <item>Escala de Grises</item>
+        <item>Suavizado</item>
+        <item>Afilado</item>
+        <item>Bordes de Canny</item>
+        <item>Líneas de Hough</item>
+        <item>Círculos de Hough</item>
+        <item>Umbral</item>
+        <item>ORB</item>
+        <item>SIFT</item>
+        <item>SURF</item>
+        <item>Rostros</item>
+        <item>Aruco Markers</item>
+    </string-array>
 </resources>

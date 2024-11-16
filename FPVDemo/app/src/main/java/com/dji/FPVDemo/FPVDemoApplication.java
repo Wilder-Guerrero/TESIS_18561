@@ -16,6 +16,7 @@ import dji.common.error.DJISDKError;
 import dji.sdk.base.BaseComponent;
 import dji.sdk.base.BaseProduct;
 import dji.sdk.camera.Camera;
+import dji.sdk.flightcontroller.FlightController;
 import dji.sdk.products.Aircraft;
 import dji.sdk.products.HandHeld;
 import dji.sdk.sdkmanager.DJISDKInitEvent;
@@ -29,6 +30,14 @@ public class FPVDemoApplication extends Application{
     public Handler mHandler;
 
     private Application instance;
+
+    public static FlightController getFlightController() {
+        Aircraft aircraft = getAircraftInstance();
+        if (aircraft != null) {
+            return aircraft.getFlightController();
+        }
+        return null;
+    }
 
     public void setContext(Application application) {
         instance = application;
@@ -64,7 +73,13 @@ public class FPVDemoApplication extends Application{
         }
         return camera;
     }
-
+    public static synchronized Aircraft getAircraftInstance() {
+        BaseProduct product = getProductInstance();
+        if (product != null && product instanceof Aircraft) {
+            return (Aircraft) product;
+        }
+        return null;
+    }
     @Override
     public void onCreate() {
         super.onCreate();
